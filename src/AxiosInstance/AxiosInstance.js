@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const AxiosInstance = axios.create({
-  baseURL: "http://localhost:3001/api/",
+  baseURL: "https://traning-app-server.onrender.com/api/",
   headers: {
     "Content-Type": "application/json",
   },
